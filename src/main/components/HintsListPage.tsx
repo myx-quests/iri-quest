@@ -47,9 +47,9 @@ export const HintsListPage: FC = () => {
                     </div>
                 )}
 
-                <button onClick={() => {
-                    localStorage.setItem("unlockers", JSON.stringify(allHintsData.map(it => it.unlocker)))
-                }}>UNCLOCK ALL</button>
+                {/*<button onClick={() => {*/}
+                {/*    localStorage.setItem("unlockers", JSON.stringify(allHintsData.map(it => it.unlocker)))*/}
+                {/*}}>UNCLOCK ALL</button>*/}
             </div>
         </>
     )

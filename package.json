@@ -4,12 +4,20 @@
   "license": "MIT",
   "source": "./src/main/index.html",
   "scripts": {
-    "build": "parcel build --no-cache --public-url ./",
-    "dev": "parcel serve --no-cache"
+    "build": "parcel build --no-cache --public-url --target prod ./iri-quest/",
+    "dev": "parcel serve --no-cache --target dev"
   },
   "staticFiles": {
     "staticPath": "./src/resources",
     "distDir": "./dist/resources"
+  },
+  "targets": {
+    "prod": {
+      "source": "./src/main/index.html"
+    },
+    "dev": {
+      "source": "./src/main/index.dev.html"
+    }
   },
   "dependencies": {
     "primeicons": "^7.0.0",

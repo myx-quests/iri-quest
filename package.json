@@ -4,7 +4,7 @@
   "license": "MIT",
   "source": "./src/main/index.html",
   "scripts": {
-    "build": "parcel build --no-cache --public-url --target prod ./iri-quest/",
+    "build": "parcel build --no-cache --target prod --public-url ./iri-quest",
     "dev": "parcel serve --no-cache --target dev"
   },
   "staticFiles": {

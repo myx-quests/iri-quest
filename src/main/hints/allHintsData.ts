@@ -4,7 +4,7 @@ export const allHintsData: Array<Hint> = [
     { // даем в руки
         unlocker: "meet",
         dataList: [{
-            image: "/resources/piano.png"
+            image: "resources/piano.png"
         }]
     },
 
@@ -12,7 +12,7 @@ export const allHintsData: Array<Hint> = [
         unlocker: "caesar",
         dataList: [
             {
-                image: "/resources/caesar.png",
+                image: "resources/caesar.png",
                 code: {
                     inputType: "text",
                     answer: "шарик"
@@ -25,7 +25,7 @@ export const allHintsData: Array<Hint> = [
     { // разлокается прошлым
         unlocker: "tableMirror",
         dataList: [{
-            image: "/resources/mirror.png"
+            image: "resources/mirror.png"
         }],
     },
 
@@ -46,7 +46,7 @@ export const allHintsData: Array<Hint> = [
         unlocker: "wordPath",
         dataList: [
             {
-                image: "/resources/word-path.png",
+                image: "resources/word-path.png",
                 code: {
                     inputType: "text",
                     answer: "тортик"
@@ -72,7 +72,7 @@ export const allHintsData: Array<Hint> = [
         unlocker: "spb-job",
         dataList: [
             {
-                image: "/resources/zagorodny5b.jpg",
+                image: "resources/zagorodny5b.jpg",
                 code: {
                     inputType: "pin",
                     answer: "4365#"
@@ -102,7 +102,7 @@ export const allHintsData: Array<Hint> = [
         unlocker: "justBeHere",
         dataList: [
             {
-                image: "/resources/rock.png",
+                image: "resources/rock.png",
                 description: [
                     "КОД"
                 ],
@@ -118,7 +118,7 @@ export const allHintsData: Array<Hint> = [
         unlocker: "pan",
         dataList: [
             {
-                image: "/resources/pan.png",
+                image: "resources/pan.png",
             }
         ]
     },
@@ -127,7 +127,7 @@ export const allHintsData: Array<Hint> = [
         unlocker: "catScratch",
         dataList: [
             {
-                image: "/resources/catscratch.png",
+                image: "resources/catscratch.png",
             }
         ]
     },
@@ -136,7 +136,7 @@ export const allHintsData: Array<Hint> = [
         unlocker: "theKey",
         dataList: [
             {
-                image: "/resources/thermos.png",
+                image: "resources/thermos.png",
             }
         ]
     }

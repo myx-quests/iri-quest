@@ -35926,7 +35926,7 @@ const allHintsData = [
         unlocker: "meet",
         dataList: [
             {
-                image: "/resources/piano.png"
+                image: "resources/piano.png"
             }
         ]
     },
@@ -35934,7 +35934,7 @@ const allHintsData = [
         unlocker: "caesar",
         dataList: [
             {
-                image: "/resources/caesar.png",
+                image: "resources/caesar.png",
                 code: {
                     inputType: "text",
                     answer: "\u0448\u0430\u0440\u0438\u043A"
@@ -35950,7 +35950,7 @@ const allHintsData = [
         unlocker: "tableMirror",
         dataList: [
             {
-                image: "/resources/mirror.png"
+                image: "resources/mirror.png"
             }
         ]
     },
@@ -35972,7 +35972,7 @@ const allHintsData = [
         unlocker: "wordPath",
         dataList: [
             {
-                image: "/resources/word-path.png",
+                image: "resources/word-path.png",
                 code: {
                     inputType: "text",
                     answer: "\u0442\u043E\u0440\u0442\u0438\u043A"
@@ -36000,7 +36000,7 @@ const allHintsData = [
         unlocker: "spb-job",
         dataList: [
             {
-                image: "/resources/zagorodny5b.jpg",
+                image: "resources/zagorodny5b.jpg",
                 code: {
                     inputType: "pin",
                     answer: "4365#"
@@ -36031,7 +36031,7 @@ const allHintsData = [
         unlocker: "justBeHere",
         dataList: [
             {
-                image: "/resources/rock.png",
+                image: "resources/rock.png",
                 description: [
                     "\u041A\u041E\u0414"
                 ],
@@ -36046,7 +36046,7 @@ const allHintsData = [
         unlocker: "pan",
         dataList: [
             {
-                image: "/resources/pan.png"
+                image: "resources/pan.png"
             }
         ]
     },
@@ -36054,7 +36054,7 @@ const allHintsData = [
         unlocker: "catScratch",
         dataList: [
             {
-                image: "/resources/catscratch.png"
+                image: "resources/catscratch.png"
             }
         ]
     },
@@ -36062,7 +36062,7 @@ const allHintsData = [
         unlocker: "theKey",
         dataList: [
             {
-                image: "/resources/thermos.png"
+                image: "resources/thermos.png"
             }
         ]
     }

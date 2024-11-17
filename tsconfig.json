@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "jsx": "react-jsx",
+    "lib": ["es2015", "DOM"],
+    "jsxImportSource": "react",
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  }
+}

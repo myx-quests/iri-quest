@@ -1,0 +1,54 @@
+
+
+.pinpad {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.pinpad-button {
+    text-transform: uppercase;
+    justify-content: center;
+}
+
+.pinpad-buttons {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem
+}
+
+.pinpad-button {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.pinpad-button-key {
+    aspect-ratio: 1 / 1;
+}
+
+.pinpad-additional-buttons {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem
+}
+
+.pinpad-additional-buttons > * {
+    padding: 10px;
+}
+
+.pinpad-row {
+    width: 100%;
+    border: 1px solid white;
+    height: 80px;
+    font-size: 30px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 10px;
+}
+
+.pipad-row.placeholder {
+    font-color: gray;
+}

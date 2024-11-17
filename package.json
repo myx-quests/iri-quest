@@ -4,7 +4,7 @@
   "license": "MIT",
   "source": "./src/main/index.html",
   "scripts": {
-    "build": "parcel build --no-cache",
+    "build": "parcel build --no-cache --public-url ./",
     "dev": "parcel serve --no-cache"
   },
   "staticFiles": {

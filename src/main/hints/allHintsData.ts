@@ -1,14 +1,16 @@
 import {Hint} from "../hint";
 
 export const allHintsData: Array<Hint> = [
-    { // даем в руки
+    { // лепим на сундук
+        // QR https://myx-quests.github.io/iri-quest/#?unlocker=meet
         unlocker: "meet",
         dataList: [{
             image: "resources/piano.png"
         }]
     },
 
-    { // прячем на балконе
+    { // прячем на пианине
+        // QR https://myx-quests.github.io/iri-quest/#?unlocker=caesar
         unlocker: "caesar",
         dataList: [
             {
@@ -30,6 +32,7 @@ export const allHintsData: Array<Hint> = [
     },
 
     { // на зеркале! Но на нём нужно нарисовать код к следующему
+        // QR https://myx-quests.github.io/iri-quest/#?unlocker=amazing
         unlocker: "amazing",
         dataList: [
             {
@@ -123,7 +126,8 @@ export const allHintsData: Array<Hint> = [
         ]
     },
 
-    { // На сковородке, но хз что там
+    { // На сковородке
+        // QR https://myx-quests.github.io/iri-quest/#?unlocker=catScratch
         unlocker: "catScratch",
         dataList: [
             {
@@ -133,6 +137,7 @@ export const allHintsData: Array<Hint> = [
     },
 
     { // когтеточка, но хз что там
+        // QR https://myx-quests.github.io/iri-quest/#?unlocker=theKey
         unlocker: "theKey",
         dataList: [
             {

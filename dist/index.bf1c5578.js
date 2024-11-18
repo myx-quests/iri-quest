@@ -34435,7 +34435,6 @@ var _useHints = require("../hook/useHints");
 var _reactRouter = require("react-router");
 var _reactRouterDom = require("react-router-dom");
 var _balloon = require("./balloon/Balloon");
-var _allHintsData = require("../hints/allHintsData");
 var _s = $RefreshSig$();
 const HintsListPage = ()=>{
     _s();
@@ -34499,16 +34498,6 @@ const HintsListPage = ()=>{
                     fileName: "src/main/components/HintsListPage.tsx",
                     lineNumber: 44,
                     columnNumber: 21
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                    onClick: ()=>{
-                        localStorage.setItem("unlockers", JSON.stringify((0, _allHintsData.allHintsData).map((it)=>it.unlocker)));
-                    },
-                    children: "UNCLOCK ALL"
-                }, void 0, false, {
-                    fileName: "src/main/components/HintsListPage.tsx",
-                    lineNumber: 50,
-                    columnNumber: 17
                 }, undefined)
             ]
         }, void 0, true, {
@@ -34534,7 +34523,7 @@ $RefreshReg$(_c, "HintsListPage");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../hook/useHints":"1qjKP","react-router":"dbWyW","react-router-dom":"9xmpe","./balloon/Balloon":"jfJ77","../hints/allHintsData":"vrpSb","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"1qjKP":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../hook/useHints":"1qjKP","react-router":"dbWyW","react-router-dom":"9xmpe","./balloon/Balloon":"jfJ77","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"1qjKP":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$6dbe = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -35923,6 +35912,7 @@ parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "allHintsData", ()=>allHintsData);
 const allHintsData = [
     {
+        // QR https://myx-quests.github.io/iri-quest/#?unlocker=meet
         unlocker: "meet",
         dataList: [
             {
@@ -35931,6 +35921,7 @@ const allHintsData = [
         ]
     },
     {
+        // QR https://myx-quests.github.io/iri-quest/#?unlocker=caesar
         unlocker: "caesar",
         dataList: [
             {
@@ -35955,6 +35946,7 @@ const allHintsData = [
         ]
     },
     {
+        // QR https://myx-quests.github.io/iri-quest/#?unlocker=amazing
         unlocker: "amazing",
         dataList: [
             {
@@ -36051,6 +36043,7 @@ const allHintsData = [
         ]
     },
     {
+        // QR https://myx-quests.github.io/iri-quest/#?unlocker=catScratch
         unlocker: "catScratch",
         dataList: [
             {
@@ -36059,6 +36052,7 @@ const allHintsData = [
         ]
     },
     {
+        // QR https://myx-quests.github.io/iri-quest/#?unlocker=theKey
         unlocker: "theKey",
         dataList: [
             {
